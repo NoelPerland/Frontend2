@@ -1,0 +1,49 @@
+body {
+  background: rgb(60, 60, 60);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(91, 182, 238);
+  font-size: xxx-large;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.heroText {
+  position: absolute;
+  color: rgb(91, 182, 238);
+  top: 20%;
+  left: 37%;
+  font-size: xx-large;
+}
+
+.bg-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 400px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-left: 20%;
+}
+.image-grid img {
+  width: 7rem;
+  height: 7rem;
+}
